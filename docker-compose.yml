@@ -1,0 +1,10 @@
+version: '3'
+services:
+  inventario:
+    build: ./inventario
+
+  ventas:
+    build: ./ventas
+
+  clientes:
+    build: ./clientes
